@@ -17,3 +17,22 @@ To put it simply, the continuous integration is part of both continuous delivery
 
 ## What is a CI CD Pipeline
 The CI/CD pipeline is all about automation: Initiating code builds, automated testing, and automated deploying to the staging or production environments. It’s complex and exciting at the same time, but incredibly fast, if the output of any stage fails, the next stage will also fail.
+
+## Set up Jenkins
+
+### setting up ssh connection Git-hub Jenkins
+- Generate new ssh key in you localhost/laptop and name it yournamejenkins
+- copy public ssh key in into github the .pub file yournamejenkins.pub
+- copy provate ssh key int o Jenkins - yournamejenkins.pub
+- add git-hub url into repository URL after select Git underneath source code managment
+- add https git-hub repo url in the git project
+- change the branch to main
+- execute shell
+
+```
+cd app
+npm install
+npm test
+```
+
+- save and trigger the build
