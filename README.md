@@ -1,7 +1,6 @@
 # CI-CD with Jenkins
 
-![untitled (1)](https://user-images.githubusercontent.com/46928467/122413793-91919c00-cf7e-11eb-9d83-e9f705e1a567.png)
-
+![untitled](https://user-images.githubusercontent.com/46928467/122429910-0bc81d80-cf8b-11eb-89b9-61a8df81b3db.png)
 
 ## Continuous Integration
 Developers merge/commit code to master branch multiple times a day, fully automated build and test process which gives feedback within few minutes, by doing so, you avoid the integration hell that usually happens when people wait for release day to merge their changes into the release branch.
